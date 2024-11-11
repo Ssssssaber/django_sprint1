@@ -41,8 +41,8 @@ posts = [
                 жалкие обломки,  да и те видны только во время отлива.
                 Весь этот день я хлопотал  около вещей: укрывал и
                 укутывал их, чтобы не испортились от дождя.''',
-    },
-] 
+    }
+]
 
 
 # Create your views here.
@@ -62,7 +62,7 @@ def post_detail(request, id):
     return render(request, template, context)
 
 
-def category_posts(request, category_slug):    
+def category_posts(request, category_slug):
     template = 'blog/category.html'
 
     # context = {
